@@ -1,7 +1,7 @@
 {
-  "name": "@robinherbots/grunt-cideploy",
+  "name": "@mstab/grunt-cideploy",
   "description": "Deployment Task",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "homepage": "https://github.com/RobinHerbots/grunt-cideploy#readme",
   "author": "Robin Herbots",
   "repository": {
@@ -24,14 +24,14 @@
     "load-grunt-tasks": "^5.1.0"
   },
   "dependencies": {
+    "@mstab/grunt-msbuild": "^1.1.6",
+    "@robinherbots/grunt-nuget": "^0.3.2",
+    "@robinherbots/grunt-webapppool": "^0.0.4",
     "grunt-cli": "^1.3.2",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-git": "^1.0.14",
-    "grunt-msbuild": "^1.1.1",
-    "@robinherbots/grunt-nuget": "^0.3.2",
     "grunt-prompt": "^1.3.3",
     "grunt-sharepoint-list": "^1.0.4",
-    "@robinherbots/grunt-webapppool": "^0.0.4",
     "lodash": "^4.17.15"
   },
   "keywords": [
